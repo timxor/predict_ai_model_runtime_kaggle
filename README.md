@@ -53,7 +53,7 @@ cd /Users/tim/out
 
 
 
-
+```
 (tpugraphs) tim@super.macbook😀=> python tiles_evaluate.py --dirs /Users/tim/out/tpugraphs_tiles/model_fc77809d9bd45c14f688a810e9e70318
 WARNING:tensorflow:From /Users/tim/Library/Python/3.9/lib/python/site-packages/tensorflow/python/ops/distributions/distribution.py:259: ReparameterizationType.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
 Instructions for updating:
@@ -97,6 +97,7 @@ W0829 21:58:44.479212 8024514688 optimizer.py:70] At this time, the v2.11+ optim
     2  mvn clean install
     3  c
 
+```
 
 
 
@@ -109,13 +110,12 @@ W0829 21:58:44.479212 8024514688 optimizer.py:70] At this time, the v2.11+ optim
 
 
 
-
-
+```
 cd /Users/tim/data/tpugraphs
+```
 
 
-
-
+```
 1070  python3 tiles_train.py --model=EarlyJoinSAGE --toy_data=True
  1071  pip install absl-py
  1072  pip3 install absl-py
@@ -154,7 +154,7 @@ cd /Users/tim/data/tpugraphs
  1105  python tiles_evaluate.py --dirs /Users/tim/out/tpugraphs_tiles/model_19f264c1c9ddfdf8ada61881bf824693
  1106  python tiles_evaluate.py --dirs /Users/tim/out/tpugraphs_tiles/model_fc77809d9bd45c14f688a810e9e70318
 (tpugraphs) tim@super.macbook😀=> 
-
+```
 
 
 
